@@ -1,0 +1,76 @@
+<?php
+/*$total=0;
+function km($quilometo)
+{
+    global $total;
+    $total+=$quilometo;
+    return $quilometo*5;
+}
+    echo 'o valor percorrido'. km(100)."km\n";
+    echo 'o valor percorrido'. km(200) . "km\n";
+
+*/
+/*for($x=0;$x<=4;$x++)
+{print("\n");
+    for($z=0;$z<=4;$z++)
+    {
+        echo "$z";
+        
+    }
+    print("\n");
+}*/
+
+/*
+
+$km=0;
+function distancia($variavel)
+{
+    global $km;
+$km+=$variavel;
+echo "a distancia percorrida é $variavel \t a valo somado na variavel e $km\n";
+}
+distancia(100);
+distancia(50);
+distancia(200);
+*/
+
+
+/*function elevado($numero)
+{
+    return $numero**2;
+
+}
+echo "o valor de 6 elevado a 2 e ".elevado(6)."\n";
+echo 'o valor de 6 elevado a 2 e '.elevado(5);
+*/
+
+
+/*function media($nome,$n1, $n2,$n3 )
+{
+    $media = ($n1+$n2+$n3)/3;
+    echo "o $nome tiro a nota $media";
+    
+}
+media("alex", 5,8,6);
+if($media>=7)
+echo" o aluno passo";
+else
+echo"o aluno reprovou";
+
+*/
+/*
+function fatorial($numero)
+{
+    if($numero==1)
+    return $numero;
+    else
+    return $numero * fatorial($numero-1);
+}
+echo fatorial(3);
+
+*/
+$i =fopen("texto.txt",'');
+
+
+?>
+

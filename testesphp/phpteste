@@ -1,0 +1,99 @@
+<?php
+
+/* comado if é else if abaixo */
+/*$a=2;
+$b=6;
+$c=6;
+$x=($a+$b+$c);
+$resu=$x/2;
+if($resu>3 and $resu<4)
+    {echo 'o aluno precisa estudar mais';}
+else if($resu>4 and $resu<=5)
+    { echo 'o aluno ficou de recuperaçao';}
+else { echo 'o aluno passou';}
+
+>> SAIDA = o aluno passou
+*/
+
+/* comando switch abaixo 
+ 
+$y = 3;
+switch($y){
+    case 3;
+    echo 'o numero e 3';
+    break;
+    case 2;
+    echo ' o numero e 2';
+    break;
+default:
+echo 'o numer nao corresponde';
+
+}  
+>> SAIDA = o numero e 3        o numero e 2
+*/
+
+// comando array 
+
+/*$carro =array( 'gol','palio','saveiro','camionete');
+print($carro[2]);
+
+>> SAIDA = saveiro
+*/
+
+
+//uso do comando while abaixo 
+
+/*$x=1;
+$y=0;
+while($x<=5)
+{ echo ' o valor e ',$x;
+    $y=$y+$x;
+    $x++;}
+print(' ');
+$z=$y;
+echo 'a soma dos digitos e = ',$z;
+
+>> SAIDA = o valor e 1 o valor e 2 o valor e 3 o valor e 4 o valor e 5   a soma dos digitos e = 15 
+*/
+
+//comando do while abaixo
+/*$num=1;
+do
+{
+    echo 'valor do digito e ', $num;
+$num++;
+}while($num<=5);
+
+>> SAIDA = valor do digito e 1 valor do digito e 2 valor do digito e 3 valor do digito e 4 valor do digito e 5
+*/
+
+// uso do comando (for) abaixo
+
+/*for($a=1; $a<=10; $a++)
+{
+    echo'o valor do digito e ' , $a;
+}
+
+>> SAIDA = valor do digito é 1 valor do digito e 2 valor do digito e 3 valor do digito e 4 valor do digito e 5
+*/
+// uso do comando for bidimensional
+/*for($i=1;$i<=10; $i++)
+{ for($j=1;$j<=10; $j++)
+    { 
+        echo $j;
+    }
+print("\n");
+}*/
+
+
+/* uso do comando foreach
+$fruta=array("maça","uva","laranja");
+
+foreach($fruta as $x)
+{
+    echo "$x-";
+}*/
+
+
+
+?> 

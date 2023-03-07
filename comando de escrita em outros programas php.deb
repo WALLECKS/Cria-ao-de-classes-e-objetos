@@ -1,0 +1,16 @@
+<?php
+// abre o arquivo para edição
+$fp=fopen("/home/invisible_ghost/programas php/lup.php","w");
+
+
+//os comando abaixo escreve linhas de codigos no arquivo citado acima
+fwrite($fp,"escrevi aqui \n");
+fclose($fp);
+
+
+?>
+====================================================== no codigo abaixo eu consigo gravar um texto no caminho citado =======================================
+<?php
+echo file_put_contents ('diretorio',"texto a ser gravado");
+
+?>
