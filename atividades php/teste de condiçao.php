@@ -50,7 +50,7 @@ echo quadrado(4);
 // 5) no codigo abaixo eu abro um arquivo e escrevo dentro dele
 
 
-//abrir o arquivo (regulamento)
+/*abrir o arquivo (regulamento)
 $i = fopen("/home/invisible_ghost/Documentos/regulamento","r+");
 
 // escrever o no arquivo (regulamento)
@@ -58,4 +58,16 @@ $escrever = fwrite($i,"escrevi aqui");
 
 // fechar fo arquivo 
 fclose($i);
+*/
+
+
+$arquivo = "/home/invisible_ghost/Documentos/regulamento";
+if (rmdir($arquivo))
+  {
+    echo "arquivo apagado";
+  }
+  else
+  {
+    echo "arquivo não apagado";
+  }
 ?>
