@@ -7,5 +7,8 @@ $inforCompany =[
 ];
 var_dump($inforCompany);
 echo"\n";
-var_dump(array_keys($inforCompany));
+var_dump(array_keys($inforCompany)); // mostra as chaves que contem os valores
+
+
+unset($inforCompany[/*especificar o valor da posiçao do array para ser excluida */]);
 ?>
